@@ -1,0 +1,91 @@
+[{
+	"DealerId": "3P1326",
+	"ProductId": "IvProductId-1",
+	"PlantId": "PY51",
+	"StockBalance": 5862.22,
+	"__metadata": {
+		"uri": "EtEmerstockSet(DealerId='IvDlrNum%201',ProductId='IvProductId%201',PlantId='PlantId%201')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtEmerstock"
+	}
+}, {
+	"DealerId": "3P1326",
+	"ProductId": "IvProductId-1",
+	"PlantId": "PY52",
+	"StockBalance": 5615.88,
+	"__metadata": {
+		"uri": "EtEmerstockSet(DealerId='IvDlrNum%202',ProductId='IvProductId%202',PlantId='PlantId%202')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtEmerstock"
+	}
+}, {
+	"DealerId": "3P1326",
+	"ProductId": "IvProductId-1",
+	"PlantId": "PY53",
+	"StockBalance": 1507.41,
+	"__metadata": {
+		"uri": "EtEmerstockSet(DealerId='IvDlrNum%203',ProductId='IvProductId%203',PlantId='PlantId%203')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtEmerstock"
+	}
+}, {
+	"DealerId": "3P1326",
+	"ProductId": "IvProductId-1",
+	"PlantId": "PY54",
+	"StockBalance": 5110.63,
+	"__metadata": {
+		"uri": "EtEmerstockSet(DealerId='IvDlrNum%204',ProductId='IvProductId%204',PlantId='PlantId%204')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtEmerstock"
+	}
+}, {
+	"DealerId": "3P1326",
+	"ProductId": "IvProductId-1",
+	"PlantId": "PY55",
+	"StockBalance": 7577.01,
+	"__metadata": {
+		"uri": "EtEmerstockSet(DealerId='IvDlrNum%205',ProductId='IvProductId%205',PlantId='PlantId%205')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtEmerstock"
+	}
+}, {
+	"DealerId": "3P1326",
+	"ProductId": "IvProductId-2",
+	"PlantId": "PY51",
+	"StockBalance": 5537.13,
+	"__metadata": {
+		"uri": "EtEmerstockSet(DealerId='IvDlrNum%206',ProductId='IvProductId%206',PlantId='PlantId%206')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtEmerstock"
+	}
+}, {
+	"DealerId": "3P1326",
+	"ProductId": "IvProductId-2",
+	"PlantId": "PY52",
+	"StockBalance": 8153.9,
+	"__metadata": {
+		"uri": "EtEmerstockSet(DealerId='IvDlrNum%207',ProductId='IvProductId%207',PlantId='PlantId%207')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtEmerstock"
+	}
+}, {
+	"DealerId": "3P1326",
+	"ProductId": "IvProductId-2",
+	"PlantId": "PY53",
+	"StockBalance": 4409.07,
+	"__metadata": {
+		"uri": "EtEmerstockSet(DealerId='IvDlrNum%208',ProductId='IvProductId%208',PlantId='PlantId%208')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtEmerstock"
+	}
+}, {
+	"DealerId": "3P1326",
+	"ProductId": "IvProductId-3",
+	"PlantId": "PY51",
+	"StockBalance": 9999.52,
+	"__metadata": {
+		"uri": "EtEmerstockSet(DealerId='IvDlrNum%209',ProductId='IvProductId%209',PlantId='PlantId%209')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtEmerstock"
+	}
+}, {
+	"DealerId": "3P1326",
+	"ProductId": "IvProductId-3",
+	"PlantId": "PY52",
+	"StockBalance": 1886.21,
+	"__metadata": {
+		"uri": "EtEmerstockSet(DealerId='IvDlrNum%2010',ProductId='IvProductId%2010',PlantId='PlantId%2010')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtEmerstock"
+	}
+}]

@@ -1,0 +1,168 @@
+<edmx:Edmx
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+    xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+    xmlns:sap="http://www.sap.com/Protocols/SAPData" Version="1.0">
+    <edmx:DataServices m:DataServiceVersion="2.0">
+        <Schema
+            xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV" xml:lang="en" sap:schema-version="1">
+            <EntityType Name="EtEmerstock" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="DealerId"/>
+                    <PropertyRef Name="ProductId"/>
+                    <PropertyRef Name="PlantId"/>
+                </Key>
+                <Property Name="DealerId" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Character Field Length = 10" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ProductId" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Product ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="PlantId" Type="Edm.String" Nullable="false" MaxLength="4" sap:unicode="false" sap:label="Sales Org." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="StockBalance" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unicode="false" sap:label="Unrestricted" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="EtStockOrderBalance" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="DealerId"/>
+                    <PropertyRef Name="ProductId"/>
+                    <PropertyRef Name="PlantId"/>
+                </Key>
+                <Property Name="DealerId" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Character Field Length = 10" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ProductId" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Product ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="PlantId" Type="Edm.String" Nullable="false" MaxLength="4" sap:unicode="false" sap:label="Sales Org." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="StockBalance" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unicode="false" sap:label="Unrestricted" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="Product_Detail" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="IvDlrNum"/>
+                    <PropertyRef Name="IvProductId"/>
+                </Key>
+                <Property Name="EsProdDetails" Type="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EsProdDetails" Nullable="false"/>
+                <Property Name="IvDlrNum" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Character Field Length = 10" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="IvProductId" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Product ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <NavigationProperty Name="N_STOCK" Relationship="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.A_STOCK" FromRole="FromRole_A_STOCK" ToRole="ToRole_A_STOCK"/>
+                <NavigationProperty Name="N_EMERSTOCK" Relationship="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.A_EMERSTOCK" FromRole="FromRole_A_EMERSTOCK" ToRole="ToRole_A_EMERSTOCK"/>
+            </EntityType>
+            <EntityType Name="EtProdInfo" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ProductGuid"/>
+                    <PropertyRef Name="ProductId"/>
+                </Key>
+                <Property Name="Client" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:label="Client" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ProductGuid" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="Product GUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ProductId" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Product ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ProductType" Type="Edm.String" Nullable="false" MaxLength="2" sap:unicode="false" sap:label="Product Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Config" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Configurable" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Xnosearch" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Product Is Not Relevant for Search Help" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ObjectFamily" Type="Edm.String" Nullable="false" MaxLength="4" sap:unicode="false" sap:label="Object Family" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="BatchDedicated" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Batch Class" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="CompetitorProd" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Competitor Product" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ValidFrom" Type="Edm.Decimal" Nullable="false" Precision="15" Scale="0" sap:unicode="false" sap:label="Valid From" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ValidTo" Type="Edm.Decimal" Nullable="false" Precision="15" Scale="0" sap:unicode="false" sap:label="Valid To" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Upname" Type="Edm.String" Nullable="false" MaxLength="12" sap:unicode="false" sap:label="Changed By" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Histex" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="History Exists" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Logsys" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Logical System" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="Prod_List" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ProductGuid"/>
+                    <PropertyRef Name="ProductId"/>
+                </Key>
+                <Property Name="Client" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:label="Client" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ProductGuid" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="Product GUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ProductId" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Product ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ProductType" Type="Edm.String" Nullable="false" MaxLength="2" sap:unicode="false" sap:label="Product Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Config" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Configurable" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Xnosearch" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Product Is Not Relevant for Search Help" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ObjectFamily" Type="Edm.String" Nullable="false" MaxLength="4" sap:unicode="false" sap:label="Object Family" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="BatchDedicated" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Batch Class" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="CompetitorProd" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Competitor Product" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Upname" Type="Edm.String" Nullable="false" MaxLength="12" sap:unicode="false" sap:label="Changed By" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Histex" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="History Exists" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Logsys" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Logical System" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="EtProduct" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ProductGuid"/>
+                </Key>
+                <Property Name="ProductGuid" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="Product GUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ShortText" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Langu" Type="Edm.String" Nullable="false" MaxLength="2" sap:unicode="false" sap:label="Language" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Logsys" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Logical System" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ProductId" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Product ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ProductType" Type="Edm.String" Nullable="false" MaxLength="2" sap:unicode="false" sap:label="Product Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Config" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Configurable" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Xnosearch" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Product Is Not Relevant for Search Help" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ObjectFamily" Type="Edm.String" Nullable="false" MaxLength="4" sap:unicode="false" sap:label="Object Family" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="BatchDedicated" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Batch Class" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="CompetitorProd" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Competitor Product" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <ComplexType Name="EsProdDetails">
+                <Property Name="ProductId" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Product ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Description" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="NetWeight" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:label="Net Weight" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="WeightUnit" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Weight Unit" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/>
+                <Property Name="PackageQty" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:label="Delivery Unit" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="VendorPart" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Item Cat. Group" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Notes" Type="Edm.String" Nullable="false" MaxLength="100" sap:label="Notes" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ProdObsolete" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Active Status" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ProdNotEffective" Type="Edm.String" Nullable="false" MaxLength="2" sap:label="Dchain-spec. status" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="EmergBaltotal" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:label="Unrestricted" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="PartSrc" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="CHAR08" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ProgNum" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="CHAR08" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="CoreRef" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="CHAR08" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="CorePrice" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="CHAR08" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ExRef" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="CHAR08" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ListExprice" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="CHAR08" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="CommodityCode" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="CHAR08" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="HazardCode" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="CHAR08" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="StockordDisc" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="CHAR08" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Retrunable" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="CHAR08" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="EcuCode" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="CHAR08" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </ComplexType>
+            <Association Name="A_EMERSTOCK" sap:content-version="1">
+                <End Type="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Product_Detail" Multiplicity="1" Role="FromRole_A_EMERSTOCK"/>
+                <End Type="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtEmerstock" Multiplicity="*" Role="ToRole_A_EMERSTOCK"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_A_EMERSTOCK">
+                        <PropertyRef Name="IvDlrNum"/>
+                        <PropertyRef Name="IvProductId"/>
+                    </Principal>
+                    <Dependent Role="ToRole_A_EMERSTOCK">
+                        <PropertyRef Name="DealerId"/>
+                        <PropertyRef Name="ProductId"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="A_STOCK" sap:content-version="1">
+                <End Type="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Product_Detail" Multiplicity="1" Role="FromRole_A_STOCK"/>
+                <End Type="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtStockOrderBalance" Multiplicity="*" Role="ToRole_A_STOCK"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_A_STOCK">
+                        <PropertyRef Name="IvDlrNum"/>
+                        <PropertyRef Name="IvProductId"/>
+                    </Principal>
+                    <Dependent Role="ToRole_A_STOCK">
+                        <PropertyRef Name="DealerId"/>
+                        <PropertyRef Name="ProductId"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <EntityContainer Name="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+                <EntitySet Name="Product_DetailSet" EntityType="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Product_Detail" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+                <EntitySet Name="EtProdInfoSet" EntityType="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtProdInfo" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+                <EntitySet Name="Prod_ListSet" EntityType="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Prod_List" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="EtProductSet" EntityType="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtProduct" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+                <EntitySet Name="EtEmerstockSet" EntityType="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtEmerstock" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+                <EntitySet Name="EtStockOrderBalanceSet" EntityType="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtStockOrderBalance" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+                <AssociationSet Name="A_EMERSTOCKSet" Association="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.A_EMERSTOCK" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="Product_DetailSet" Role="FromRole_A_EMERSTOCK"/>
+                    <End EntitySet="EtEmerstockSet" Role="ToRole_A_EMERSTOCK"/>
+                </AssociationSet>
+                <AssociationSet Name="A_STOCKSet" Association="Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.A_STOCK" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="Product_DetailSet" Role="FromRole_A_STOCK"/>
+                    <End EntitySet="EtStockOrderBalanceSet" Role="ToRole_A_STOCK"/>
+                </AssociationSet>
+            </EntityContainer>
+            <atom:link
+                xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="./sap/Z_CRP0_UI5_PROD_DETAIL_INFO_SRV/$metadata"/>
+                <atom:link
+                    xmlns:atom="http://www.w3.org/2005/Atom" rel="latest-version" href="./sap/Z_CRP0_UI5_PROD_DETAIL_INFO_SRV/$metadata"/>
+                </Schema>
+            </edmx:DataServices>
+        </edmx:Edmx>

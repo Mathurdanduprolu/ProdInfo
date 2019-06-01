@@ -1,0 +1,97 @@
+<mvc:View
+	controllerName="z.controller.Detail"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:semantic="sap.m.semantic"
+	xmlns:footerbar="sap.ushell.ui.footerbar"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core"
+	xmlns:viz="sap.viz.ui5.controls">
+
+	<semantic:DetailPage
+		id="page"
+		navButtonPress="onNavBack"
+		showNavButton="{device>/system/phone}"
+		title="{i18n>detailTitle}"
+		busy="{detailView>/busy}"
+		busyIndicatorDelay="{detailView>/delay}">
+
+		<semantic:content>
+			<ObjectHeader
+				id="objectHeader"
+				title="{ProdDetModel>/ProductId}"
+				number="{
+					parts:[{path:'ProdDetModel>/ListExprice'}],
+					type: 'sap.ui.model.type.Currency',
+					formatOptions: {showMeasure: false}
+				}">
+				<attributes>
+					<ObjectAttribute text="{ProdDetModel>/Description}" />
+				</attributes>
+			</ObjectHeader>
+			<Panel expandable="false" expanded="true"  width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<IconTabBar
+						id="iconTabBar"
+						class="sapUiResponsiveContentPadding">
+						<items>
+							<IconTabFilter
+								id="iconTabBarFilter1"
+								text="{i18n>detailsTabTitle}"
+								tooltip="{i18n>detailIconTabBarInfo}">
+									<f:SimpleForm id="SimpleFormDisplay480_12120Dual"
+										editable="false"
+										layout="ResponsiveGridLayout"
+										labelSpanXL="4"
+										labelSpanL="4"
+										labelSpanM="4"
+										labelSpanS="12"
+										adjustLabelSpan="false"
+										emptySpanXL="0"
+										emptySpanL="0"
+										emptySpanM="0"
+										emptySpanS="0"
+										columnsXL="2"
+										columnsL="2"
+										columnsM="2"
+										singleContainerFullSize="false" >
+										<f:content>
+											<core:Title text="{i18n>genInfo}" />
+											<Label text="Product" />
+											<Text text="{ProdDetModel>/ProductId}" />
+											<Label text="{i18n>vendorPart}" />
+											<Text text="{ProdDetModel>/VendorPart}" />
+											<Label text="{i18n>prodObsolete}" />
+											<Text text="{ProdDetModel>/ProdObsolete}" />
+											<Label text="{i18n>prodNotEffective}" />
+											<Text text="{ProdDetModel>/ProdNotEffective}" />
+											<Label text="{i18n>notes}" />
+											<Text text="{ProdDetModel>/Notes}" />
+											<core:Title text="{i18n>spec}" />
+											<Label text="{i18n>weightUnit}" />
+											<Text text="{ProdDetModel>/WeightUnit}" />
+											<Label text="{i18n>packageQty}" />
+											<Text text="{ProdDetModel>/PackageQty}" />
+											<Label text="{i18n>netWeight}" />
+											<Text text="{ProdDetModel>/NetWeight}" />
+										</f:content>
+									</f:SimpleForm>
+							</IconTabFilter>
+							<IconTabFilter
+								id="iconTabBarFilter2"
+								text="{i18n>stockInfoTabTitle}"
+								tooltip="{i18n>detailIconTabBarAttachments}">
+								<viz:VizFrame id="vizFrameId" vizType="column" width="100%">
+										</viz:VizFrame>
+							</IconTabFilter>
+						</items>
+					</IconTabBar>
+				</content>
+			</Panel>
+			
+
+		</semantic:content>
+		
+	</semantic:DetailPage>
+
+</mvc:View>

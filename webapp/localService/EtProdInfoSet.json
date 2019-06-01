@@ -1,0 +1,191 @@
+[{
+	"Client": "Client 1",
+	"ProductGuid": "fe977d3d-39b2-4ad8-bc2a-df2028209906",
+	"ProductId": "IvProductId-1",
+	"ProductType": "ProductType 1",
+	"Config": "Config 1",
+	"Xnosearch": "Xnosearch 1",
+	"ObjectFamily": "ObjectFamily 1",
+	"BatchDedicated": "BatchDedicated 1",
+	"CompetitorProd": "CompetitorProd 1",
+	"ValidFrom": 4077.03,
+	"ValidTo": 3308.69,
+	"Upname": "Upname 1",
+	"Histex": "Histex 1",
+	"Logsys": "Logsys 1",
+	"__metadata": {
+		"uri": "EtProdInfoSet(ProductGuid=guid'fe977d3d-39b2-4ad8-bc2a-df2028209906',ProductId='ProductId%201')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtProdInfo"
+	}
+}, {
+	"Client": "Client 2",
+	"ProductGuid": "3f0f4830-f6cd-49a7-a388-2bc55f48fd66",
+	"ProductId": "IvProductId-2",
+	"ProductType": "ProductType 2",
+	"Config": "Config 2",
+	"Xnosearch": "Xnosearch 2",
+	"ObjectFamily": "ObjectFamily 2",
+	"BatchDedicated": "BatchDedicated 2",
+	"CompetitorProd": "CompetitorProd 2",
+	"ValidFrom": 3313.08,
+	"ValidTo": 2873.36,
+	"Upname": "Upname 2",
+	"Histex": "Histex 2",
+	"Logsys": "Logsys 2",
+	"__metadata": {
+		"uri": "EtProdInfoSet(ProductGuid=guid'3f0f4830-f6cd-49a7-a388-2bc55f48fd66',ProductId='ProductId%202')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtProdInfo"
+	}
+}, {
+	"Client": "Client 3",
+	"ProductGuid": "f5bf0b3a-4665-4150-ac92-43c0f22721a4",
+	"ProductId": "IvProductId-3",
+	"ProductType": "ProductType 3",
+	"Config": "Config 3",
+	"Xnosearch": "Xnosearch 3",
+	"ObjectFamily": "ObjectFamily 3",
+	"BatchDedicated": "BatchDedicated 3",
+	"CompetitorProd": "CompetitorProd 3",
+	"ValidFrom": 1441.87,
+	"ValidTo": 6458.46,
+	"Upname": "Upname 3",
+	"Histex": "Histex 3",
+	"Logsys": "Logsys 3",
+	"__metadata": {
+		"uri": "EtProdInfoSet(ProductGuid=guid'f5bf0b3a-4665-4150-ac92-43c0f22721a4',ProductId='ProductId%203')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtProdInfo"
+	}
+}, {
+	"Client": "Client 4",
+	"ProductGuid": "82d3124f-e779-4677-9812-c708d7063171",
+	"ProductId": "IvProductId-4",
+	"ProductType": "ProductType 4",
+	"Config": "Config 4",
+	"Xnosearch": "Xnosearch 4",
+	"ObjectFamily": "ObjectFamily 4",
+	"BatchDedicated": "BatchDedicated 4",
+	"CompetitorProd": "CompetitorProd 4",
+	"ValidFrom": 9914.67,
+	"ValidTo": 5116.73,
+	"Upname": "Upname 4",
+	"Histex": "Histex 4",
+	"Logsys": "Logsys 4",
+	"__metadata": {
+		"uri": "EtProdInfoSet(ProductGuid=guid'82d3124f-e779-4677-9812-c708d7063171',ProductId='ProductId%204')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtProdInfo"
+	}
+}, {
+	"Client": "Client 5",
+	"ProductGuid": "84a22663-12a4-4aff-b5f7-8aa2bbdc00db",
+	"ProductId": "IvProductId-5",
+	"ProductType": "ProductType 5",
+	"Config": "Config 5",
+	"Xnosearch": "Xnosearch 5",
+	"ObjectFamily": "ObjectFamily 5",
+	"BatchDedicated": "BatchDedicated 5",
+	"CompetitorProd": "CompetitorProd 5",
+	"ValidFrom": 5118.74,
+	"ValidTo": 913.73,
+	"Upname": "Upname 5",
+	"Histex": "Histex 5",
+	"Logsys": "Logsys 5",
+	"__metadata": {
+		"uri": "EtProdInfoSet(ProductGuid=guid'84a22663-12a4-4aff-b5f7-8aa2bbdc00db',ProductId='ProductId%205')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtProdInfo"
+	}
+}, {
+	"Client": "Client 6",
+	"ProductGuid": "a48eea98-ff46-4a02-adf5-595395f907a1",
+	"ProductId": "IvProductId-6",
+	"ProductType": "ProductType 6",
+	"Config": "Config 6",
+	"Xnosearch": "Xnosearch 6",
+	"ObjectFamily": "ObjectFamily 6",
+	"BatchDedicated": "BatchDedicated 6",
+	"CompetitorProd": "CompetitorProd 6",
+	"ValidFrom": 6703.23,
+	"ValidTo": 7823.9,
+	"Upname": "Upname 6",
+	"Histex": "Histex 6",
+	"Logsys": "Logsys 6",
+	"__metadata": {
+		"uri": "EtProdInfoSet(ProductGuid=guid'a48eea98-ff46-4a02-adf5-595395f907a1',ProductId='ProductId%206')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtProdInfo"
+	}
+}, {
+	"Client": "Client 7",
+	"ProductGuid": "6db5b662-29c6-452a-8c16-847ce2c0dc11",
+	"ProductId": "IvProductId-7",
+	"ProductType": "ProductType 7",
+	"Config": "Config 7",
+	"Xnosearch": "Xnosearch 7",
+	"ObjectFamily": "ObjectFamily 7",
+	"BatchDedicated": "BatchDedicated 7",
+	"CompetitorProd": "CompetitorProd 7",
+	"ValidFrom": 2567.42,
+	"ValidTo": 1914.04,
+	"Upname": "Upname 7",
+	"Histex": "Histex 7",
+	"Logsys": "Logsys 7",
+	"__metadata": {
+		"uri": "EtProdInfoSet(ProductGuid=guid'6db5b662-29c6-452a-8c16-847ce2c0dc11',ProductId='ProductId%207')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtProdInfo"
+	}
+}, {
+	"Client": "Client 8",
+	"ProductGuid": "7fb675a7-9499-49df-94ae-037b07ab8d3b",
+	"ProductId": "IvProductId-8",
+	"ProductType": "ProductType 8",
+	"Config": "Config 8",
+	"Xnosearch": "Xnosearch 8",
+	"ObjectFamily": "ObjectFamily 8",
+	"BatchDedicated": "BatchDedicated 8",
+	"CompetitorProd": "CompetitorProd 8",
+	"ValidFrom": 7627.1,
+	"ValidTo": 4418.91,
+	"Upname": "Upname 8",
+	"Histex": "Histex 8",
+	"Logsys": "Logsys 8",
+	"__metadata": {
+		"uri": "EtProdInfoSet(ProductGuid=guid'7fb675a7-9499-49df-94ae-037b07ab8d3b',ProductId='ProductId%208')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtProdInfo"
+	}
+}, {
+	"Client": "Client 9",
+	"ProductGuid": "6e323073-e14f-46ad-8157-96d9855a74e0",
+	"ProductId": "IvProductId-9",
+	"ProductType": "ProductType 9",
+	"Config": "Config 9",
+	"Xnosearch": "Xnosearch 9",
+	"ObjectFamily": "ObjectFamily 9",
+	"BatchDedicated": "BatchDedicated 9",
+	"CompetitorProd": "CompetitorProd 9",
+	"ValidFrom": 3715.87,
+	"ValidTo": 4404.81,
+	"Upname": "Upname 9",
+	"Histex": "Histex 9",
+	"Logsys": "Logsys 9",
+	"__metadata": {
+		"uri": "EtProdInfoSet(ProductGuid=guid'6e323073-e14f-46ad-8157-96d9855a74e0',ProductId='ProductId%209')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtProdInfo"
+	}
+}, {
+	"Client": "Client 10",
+	"ProductGuid": "d0c703b9-c4ee-4077-98a9-fca6467a3162",
+	"ProductId": "IvProductId-10",
+	"ProductType": "ProductType 10",
+	"Config": "Config 10",
+	"Xnosearch": "Xnosearch 10",
+	"ObjectFamily": "ObjectFamily 10",
+	"BatchDedicated": "BatchDedicated 10",
+	"CompetitorProd": "CompetitorProd 10",
+	"ValidFrom": 4470.54,
+	"ValidTo": 6975.41,
+	"Upname": "Upname 10",
+	"Histex": "Histex 10",
+	"Logsys": "Logsys 10",
+	"__metadata": {
+		"uri": "EtProdInfoSet(ProductGuid=guid'd0c703b9-c4ee-4077-98a9-fca6467a3162',ProductId='ProductId%2010')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.EtProdInfo"
+	}
+}]

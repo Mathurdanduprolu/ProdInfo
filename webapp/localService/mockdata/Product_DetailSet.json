@@ -1,0 +1,401 @@
+[{
+	"EsProdDetails": {
+		"ProductId": "IvProductId-1",
+		"Description": "Description 1",
+		"NetWeight": 627.34,
+		"WeightUnit": "WeightUnit 1",
+		"PackageQty": 524.98,
+		"VendorPart": "VendorPart 1",
+		"Notes": "Notes 1",
+		"ProdObsolete": "ProdObsolete 1",
+		"ProdNotEffective": "ProdNotEffective 1",
+		"EmergBaltotal": 5836.52,
+		"PartSrc": "PartSrc 1",
+		"ProgNum": "ProgNum 1",
+		"CoreRef": "CoreRef 1",
+		"CorePrice": "CorePrice 1",
+		"ExRef": "ExRef 1",
+		"ListExprice": "ListExprice 1",
+		"CommodityCode": "CommodityCode 1",
+		"HazardCode": "HazardCode 1",
+		"StockordDisc": "StockordDisc 1",
+		"Retrunable": "Retrunable 1",
+		"EcuCode": "EcuCode 1"
+	},
+	"IvDlrNum": "3P1326",
+	"IvProductId": "IvProductId-1",
+	"__metadata": {
+		"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%201',IvProductId='IvProductId%201')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Product_Detail"
+	},
+	"N_STOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%201',IvProductId='IvProductId%201')/N_STOCK"
+		}
+	},
+	"N_EMERSTOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%201',IvProductId='IvProductId%201')/N_EMERSTOCK"
+		}
+	}
+}, {
+	"EsProdDetails": {
+		"ProductId": "IvProductId-2",
+		"Description": "Description 2",
+		"NetWeight": 2314.63,
+		"WeightUnit": "WeightUnit 2",
+		"PackageQty": 7443.85,
+		"VendorPart": "VendorPart 2",
+		"Notes": "Notes 2",
+		"ProdObsolete": "ProdObsolete 2",
+		"ProdNotEffective": "ProdNotEffective 2",
+		"EmergBaltotal": 7857.9,
+		"PartSrc": "PartSrc 2",
+		"ProgNum": "ProgNum 2",
+		"CoreRef": "CoreRef 2",
+		"CorePrice": "CorePrice 2",
+		"ExRef": "ExRef 2",
+		"ListExprice": "ListExprice 2",
+		"CommodityCode": "CommodityCode 2",
+		"HazardCode": "HazardCode 2",
+		"StockordDisc": "StockordDisc 2",
+		"Retrunable": "Retrunable 2",
+		"EcuCode": "EcuCode 2"
+	},
+	"IvDlrNum": "3P1326",
+	"IvProductId": "IvProductId-2",
+	"__metadata": {
+		"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%202',IvProductId='IvProductId%202')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Product_Detail"
+	},
+	"N_STOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%202',IvProductId='IvProductId%202')/N_STOCK"
+		}
+	},
+	"N_EMERSTOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%202',IvProductId='IvProductId%202')/N_EMERSTOCK"
+		}
+	}
+}, {
+	"EsProdDetails": {
+		"ProductId": "IvProductId-3",
+		"Description": "Description 3",
+		"NetWeight": 1138.53,
+		"WeightUnit": "WeightUnit 3",
+		"PackageQty": 683.84,
+		"VendorPart": "VendorPart 3",
+		"Notes": "Notes 3",
+		"ProdObsolete": "ProdObsolete 3",
+		"ProdNotEffective": "ProdNotEffective 3",
+		"EmergBaltotal": 6104.56,
+		"PartSrc": "PartSrc 3",
+		"ProgNum": "ProgNum 3",
+		"CoreRef": "CoreRef 3",
+		"CorePrice": "CorePrice 3",
+		"ExRef": "ExRef 3",
+		"ListExprice": "ListExprice 3",
+		"CommodityCode": "CommodityCode 3",
+		"HazardCode": "HazardCode 3",
+		"StockordDisc": "StockordDisc 3",
+		"Retrunable": "Retrunable 3",
+		"EcuCode": "EcuCode 3"
+	},
+	"IvDlrNum": "3P1326",
+	"IvProductId": "IvProductId-3",
+	"__metadata": {
+		"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%203',IvProductId='IvProductId%203')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Product_Detail"
+	},
+	"N_STOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%203',IvProductId='IvProductId%203')/N_STOCK"
+		}
+	},
+	"N_EMERSTOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%203',IvProductId='IvProductId%203')/N_EMERSTOCK"
+		}
+	}
+}, {
+	"EsProdDetails": {
+		"ProductId": "IvProductId-4",
+		"Description": "Description 4",
+		"NetWeight": 6929.64,
+		"WeightUnit": "WeightUnit 4",
+		"PackageQty": 8070.17,
+		"VendorPart": "VendorPart 4",
+		"Notes": "Notes 4",
+		"ProdObsolete": "ProdObsolete 4",
+		"ProdNotEffective": "ProdNotEffective 4",
+		"EmergBaltotal": 6870.27,
+		"PartSrc": "PartSrc 4",
+		"ProgNum": "ProgNum 4",
+		"CoreRef": "CoreRef 4",
+		"CorePrice": "CorePrice 4",
+		"ExRef": "ExRef 4",
+		"ListExprice": "ListExprice 4",
+		"CommodityCode": "CommodityCode 4",
+		"HazardCode": "HazardCode 4",
+		"StockordDisc": "StockordDisc 4",
+		"Retrunable": "Retrunable 4",
+		"EcuCode": "EcuCode 4"
+	},
+	"IvDlrNum": "3P1326",
+	"IvProductId": "IvProductId-4",
+	"__metadata": {
+		"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%204',IvProductId='IvProductId%204')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Product_Detail"
+	},
+	"N_STOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%204',IvProductId='IvProductId%204')/N_STOCK"
+		}
+	},
+	"N_EMERSTOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%204',IvProductId='IvProductId%204')/N_EMERSTOCK"
+		}
+	}
+}, {
+	"EsProdDetails": {
+		"ProductId": "IvProductId-5",
+		"Description": "Description 5",
+		"NetWeight": 1868.61,
+		"WeightUnit": "WeightUnit 5",
+		"PackageQty": 3023.51,
+		"VendorPart": "VendorPart 5",
+		"Notes": "Notes 5",
+		"ProdObsolete": "ProdObsolete 5",
+		"ProdNotEffective": "ProdNotEffective 5",
+		"EmergBaltotal": 9949.51,
+		"PartSrc": "PartSrc 5",
+		"ProgNum": "ProgNum 5",
+		"CoreRef": "CoreRef 5",
+		"CorePrice": "CorePrice 5",
+		"ExRef": "ExRef 5",
+		"ListExprice": "ListExprice 5",
+		"CommodityCode": "CommodityCode 5",
+		"HazardCode": "HazardCode 5",
+		"StockordDisc": "StockordDisc 5",
+		"Retrunable": "Retrunable 5",
+		"EcuCode": "EcuCode 5"
+	},
+	"IvDlrNum": "3P1326",
+	"IvProductId": "IvProductId-5",
+	"__metadata": {
+		"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%205',IvProductId='IvProductId%205')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Product_Detail"
+	},
+	"N_STOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%205',IvProductId='IvProductId%205')/N_STOCK"
+		}
+	},
+	"N_EMERSTOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%205',IvProductId='IvProductId%205')/N_EMERSTOCK"
+		}
+	}
+}, {
+	"EsProdDetails": {
+		"ProductId": "IvProductId-6",
+		"Description": "Description 6",
+		"NetWeight": 9536.1,
+		"WeightUnit": "WeightUnit 6",
+		"PackageQty": 4312.35,
+		"VendorPart": "VendorPart 6",
+		"Notes": "Notes 6",
+		"ProdObsolete": "ProdObsolete 6",
+		"ProdNotEffective": "ProdNotEffective 6",
+		"EmergBaltotal": 6061.07,
+		"PartSrc": "PartSrc 6",
+		"ProgNum": "ProgNum 6",
+		"CoreRef": "CoreRef 6",
+		"CorePrice": "CorePrice 6",
+		"ExRef": "ExRef 6",
+		"ListExprice": "ListExprice 6",
+		"CommodityCode": "CommodityCode 6",
+		"HazardCode": "HazardCode 6",
+		"StockordDisc": "StockordDisc 6",
+		"Retrunable": "Retrunable 6",
+		"EcuCode": "EcuCode 6"
+	},
+	"IvDlrNum": "3P1326",
+	"IvProductId": "IvProductId-6",
+	"__metadata": {
+		"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%206',IvProductId='IvProductId%206')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Product_Detail"
+	},
+	"N_STOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%206',IvProductId='IvProductId%206')/N_STOCK"
+		}
+	},
+	"N_EMERSTOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%206',IvProductId='IvProductId%206')/N_EMERSTOCK"
+		}
+	}
+}, {
+	"EsProdDetails": {
+		"ProductId": "IvProductId-7",
+		"Description": "Description 7",
+		"NetWeight": 1809.09,
+		"WeightUnit": "WeightUnit 7",
+		"PackageQty": 5498.97,
+		"VendorPart": "VendorPart 7",
+		"Notes": "Notes 7",
+		"ProdObsolete": "ProdObsolete 7",
+		"ProdNotEffective": "ProdNotEffective 7",
+		"EmergBaltotal": 1738.83,
+		"PartSrc": "PartSrc 7",
+		"ProgNum": "ProgNum 7",
+		"CoreRef": "CoreRef 7",
+		"CorePrice": "CorePrice 7",
+		"ExRef": "ExRef 7",
+		"ListExprice": "ListExprice 7",
+		"CommodityCode": "CommodityCode 7",
+		"HazardCode": "HazardCode 7",
+		"StockordDisc": "StockordDisc 7",
+		"Retrunable": "Retrunable 7",
+		"EcuCode": "EcuCode 7"
+	},
+	"IvDlrNum": "3P1326",
+	"IvProductId": "IvProductId-7",
+	"__metadata": {
+		"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%207',IvProductId='IvProductId%207')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Product_Detail"
+	},
+	"N_STOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%207',IvProductId='IvProductId%207')/N_STOCK"
+		}
+	},
+	"N_EMERSTOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%207',IvProductId='IvProductId%207')/N_EMERSTOCK"
+		}
+	}
+}, {
+	"EsProdDetails": {
+		"ProductId": "IvProductId-8",
+		"Description": "Description 8",
+		"NetWeight": 565.51,
+		"WeightUnit": "WeightUnit 8",
+		"PackageQty": 2807.3,
+		"VendorPart": "VendorPart 8",
+		"Notes": "Notes 8",
+		"ProdObsolete": "ProdObsolete 8",
+		"ProdNotEffective": "ProdNotEffective 8",
+		"EmergBaltotal": 780.44,
+		"PartSrc": "PartSrc 8",
+		"ProgNum": "ProgNum 8",
+		"CoreRef": "CoreRef 8",
+		"CorePrice": "CorePrice 8",
+		"ExRef": "ExRef 8",
+		"ListExprice": "ListExprice 8",
+		"CommodityCode": "CommodityCode 8",
+		"HazardCode": "HazardCode 8",
+		"StockordDisc": "StockordDisc 8",
+		"Retrunable": "Retrunable 8",
+		"EcuCode": "EcuCode 8"
+	},
+	"IvDlrNum": "3P1326",
+	"IvProductId": "IvProductId-8",
+	"__metadata": {
+		"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%208',IvProductId='IvProductId%208')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Product_Detail"
+	},
+	"N_STOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%208',IvProductId='IvProductId%208')/N_STOCK"
+		}
+	},
+	"N_EMERSTOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%208',IvProductId='IvProductId%208')/N_EMERSTOCK"
+		}
+	}
+}, {
+	"EsProdDetails": {
+		"ProductId": "IvProductId-9",
+		"Description": "Description 9",
+		"NetWeight": 546.37,
+		"WeightUnit": "WeightUnit 9",
+		"PackageQty": 2489.74,
+		"VendorPart": "VendorPart 9",
+		"Notes": "Notes 9",
+		"ProdObsolete": "ProdObsolete 9",
+		"ProdNotEffective": "ProdNotEffective 9",
+		"EmergBaltotal": 2152.55,
+		"PartSrc": "PartSrc 9",
+		"ProgNum": "ProgNum 9",
+		"CoreRef": "CoreRef 9",
+		"CorePrice": "CorePrice 9",
+		"ExRef": "ExRef 9",
+		"ListExprice": "ListExprice 9",
+		"CommodityCode": "CommodityCode 9",
+		"HazardCode": "HazardCode 9",
+		"StockordDisc": "StockordDisc 9",
+		"Retrunable": "Retrunable 9",
+		"EcuCode": "EcuCode 9"
+	},
+	"IvDlrNum": "3P1326",
+	"IvProductId": "IvProductId-9",
+	"__metadata": {
+		"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%209',IvProductId='IvProductId%209')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Product_Detail"
+	},
+	"N_STOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%209',IvProductId='IvProductId%209')/N_STOCK"
+		}
+	},
+	"N_EMERSTOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%209',IvProductId='IvProductId%209')/N_EMERSTOCK"
+		}
+	}
+}, {
+	"EsProdDetails": {
+		"ProductId": "IvProductId-10",
+		"Description": "Description 10",
+		"NetWeight": 4328.98,
+		"WeightUnit": "WeightUnit 10",
+		"PackageQty": 9069.05,
+		"VendorPart": "VendorPart 10",
+		"Notes": "Notes 10",
+		"ProdObsolete": "ProdObsolete 10",
+		"ProdNotEffective": "ProdNotEffective 10",
+		"EmergBaltotal": 3514.19,
+		"PartSrc": "PartSrc 10",
+		"ProgNum": "ProgNum 10",
+		"CoreRef": "CoreRef 10",
+		"CorePrice": "CorePrice 10",
+		"ExRef": "ExRef 10",
+		"ListExprice": "ListExprice 10",
+		"CommodityCode": "CommodityCode 10",
+		"HazardCode": "HazardCode 10",
+		"StockordDisc": "StockordDisc 10",
+		"Retrunable": "Retrunable 10",
+		"EcuCode": "EcuCode 10"
+	},
+	"IvDlrNum": "3P1326",
+	"IvProductId": "IvProductId-10",
+	"__metadata": {
+		"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%2010',IvProductId='IvProductId%2010')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Product_Detail"
+	},
+	"N_STOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%2010',IvProductId='IvProductId%2010')/N_STOCK"
+		}
+	},
+	"N_EMERSTOCK": {
+		"__deferred": {
+			"uri": "Product_DetailSet(IvDlrNum='IvDlrNum%2010',IvProductId='IvProductId%2010')/N_EMERSTOCK"
+		}
+	}
+}]

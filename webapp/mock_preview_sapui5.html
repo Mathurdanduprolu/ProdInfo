@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head><script src="/resources/sap-ui-core.js"	id="sap-ui-bootstrap" data-sap-ui-libs="sap.ui.commons"></script>
+<script>
+var bRunWithMock = true;
+var sRunWithMock = jQuery.sap.getUriParameters().get('run-with-mock');
+if (sRunWithMock === 'false') {
+bRunWithMock = false;
+}
+if (bRunWithMock) {
+jQuery.sap.require('sap.ui.core.util.MockServer');
+var uri = '/sap/opu/odata/sap/Z_CRP0_UI5_PROD_DETAIL_INFO_SRV/';
+var oMock = new sap.ui.core.util.MockServer({rootUri : uri});
+var _sAppModulePath = "z/";
+var sMetadataPath = "localService/metadata.xml";
+var sMetadataUrl = jQuery.sap.getModulePath(_sAppModulePath + sMetadataPath.replace(".xml", ""), ".xml");
+var sMockdataBaseUrlPath = sMetadataUrl.replace(/[^/]+$/, 'mockdata');
+oMock.simulate(sMetadataUrl, { sMockdataBaseUrl : sMockdataBaseUrlPath, bGenerateMissingMockData : true });
+oMock.start();
+	jQuery(document).ready(function($) {  sap.m.MessageToast.show('Running in demo mode with mock data.', {  duration : 4000 });
+});
+}
+</script>
+		<title>Testing Overview</title>
+		<!--  try to load the basic UI5 styles -->
+		<link rel="stylesheet" type="text/css" href="resources/sap/ui/core/themes/sap_bluecrystal/library.css">
+	</head>
+	<body class="sapUiBody sapUiMediumMargin sapUiForceWidthAuto">
+		<h1>Testing Overview</h1>
+		<p>This is an overview page of various ways to test the generated app during development.<br/>Choose one of the access points below to launch the app as a standalone application, e.g. on a Tomcat server.</p>
+
+		<ul>
+			<li><a href="test/flpSandbox.html#ProductApp-display">test/flpSandbox.html</a> - start the app in the SAP Fiori launchpad sandbox (with the real backend server)</li>
+			<li><a href="test/flpSandboxMockServer.html#ProductApp-display">test/flpSandboxMockServer.html</a> - start the app in the SAP Fiori launchpad sandbox (with local mock data)</li>
+			<li><a href="test/testsuite.qunit.html">test/testsuite.qunit.html</a> - run all the tests</li>
+			<li><a href="test/unit/unitTests.qunit.html">test/unit/unitTests.qunit.html</a> - run all unit tests</li>
+			<li><a href="test/integration/opaTests.qunit.html">test/integration/opaTests.qunit.html</a> - run all integration tests</li>
+			<li>
+				<b>run this in phone emulation mode!</b>
+				<a href="test/integration/opaTestsPhone.qunit.html">test/integration/opaTestsPhone.qunit.html</a> - run all integration tests for phone
+			</li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,171 @@
+[{
+	"Client": "Client 1",
+	"ProductGuid": "13262ac5-c0cd-4d2c-91b3-e4bdf6109b7a",
+	"ProductId": "IvProductId-1",
+	"ProductType": "ProductType 1",
+	"Config": "Config 1",
+	"Xnosearch": "Xnosearch 1",
+	"ObjectFamily": "ObjectFamily 1",
+	"BatchDedicated": "BatchDedicated 1",
+	"CompetitorProd": "CompetitorProd 1",
+	"Upname": "Upname 1",
+	"Histex": "Histex 1",
+	"Logsys": "Logsys 1",
+	"__metadata": {
+		"uri": "Prod_ListSet(ProductGuid=guid'13262ac5-c0cd-4d2c-91b3-e4bdf6109b7a',ProductId='ProductId%201')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Prod_List"
+	}
+}, {
+	"Client": "Client 2",
+	"ProductGuid": "36680f0b-b139-4055-b9b7-a99ecc5a43e0",
+	"ProductId": "IvProductId-2",
+	"ProductType": "ProductType 2",
+	"Config": "Config 2",
+	"Xnosearch": "Xnosearch 2",
+	"ObjectFamily": "ObjectFamily 2",
+	"BatchDedicated": "BatchDedicated 2",
+	"CompetitorProd": "CompetitorProd 2",
+	"Upname": "Upname 2",
+	"Histex": "Histex 2",
+	"Logsys": "Logsys 2",
+	"__metadata": {
+		"uri": "Prod_ListSet(ProductGuid=guid'36680f0b-b139-4055-b9b7-a99ecc5a43e0',ProductId='ProductId%202')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Prod_List"
+	}
+}, {
+	"Client": "Client 3",
+	"ProductGuid": "31061c70-ebf4-467f-b4a2-51c9eedb632c",
+	"ProductId": "IvProductId-3",
+	"ProductType": "ProductType 3",
+	"Config": "Config 3",
+	"Xnosearch": "Xnosearch 3",
+	"ObjectFamily": "ObjectFamily 3",
+	"BatchDedicated": "BatchDedicated 3",
+	"CompetitorProd": "CompetitorProd 3",
+	"Upname": "Upname 3",
+	"Histex": "Histex 3",
+	"Logsys": "Logsys 3",
+	"__metadata": {
+		"uri": "Prod_ListSet(ProductGuid=guid'31061c70-ebf4-467f-b4a2-51c9eedb632c',ProductId='ProductId%203')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Prod_List"
+	}
+}, {
+	"Client": "Client 4",
+	"ProductGuid": "99383056-436e-4611-aaba-487b25de2dc6",
+	"ProductId": "IvProductId-4",
+	"ProductType": "ProductType 4",
+	"Config": "Config 4",
+	"Xnosearch": "Xnosearch 4",
+	"ObjectFamily": "ObjectFamily 4",
+	"BatchDedicated": "BatchDedicated 4",
+	"CompetitorProd": "CompetitorProd 4",
+	"Upname": "Upname 4",
+	"Histex": "Histex 4",
+	"Logsys": "Logsys 4",
+	"__metadata": {
+		"uri": "Prod_ListSet(ProductGuid=guid'99383056-436e-4611-aaba-487b25de2dc6',ProductId='ProductId%204')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Prod_List"
+	}
+}, {
+	"Client": "Client 5",
+	"ProductGuid": "430ab093-113d-4617-ba54-206a6b078667",
+	"ProductId": "IvProductId-5",
+	"ProductType": "ProductType 5",
+	"Config": "Config 5",
+	"Xnosearch": "Xnosearch 5",
+	"ObjectFamily": "ObjectFamily 5",
+	"BatchDedicated": "BatchDedicated 5",
+	"CompetitorProd": "CompetitorProd 5",
+	"Upname": "Upname 5",
+	"Histex": "Histex 5",
+	"Logsys": "Logsys 5",
+	"__metadata": {
+		"uri": "Prod_ListSet(ProductGuid=guid'430ab093-113d-4617-ba54-206a6b078667',ProductId='ProductId%205')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Prod_List"
+	}
+}, {
+	"Client": "Client 6",
+	"ProductGuid": "818771a5-b9d7-4e95-8bce-b2f536ea19c4",
+	"ProductId": "IvProductId-6",
+	"ProductType": "ProductType 6",
+	"Config": "Config 6",
+	"Xnosearch": "Xnosearch 6",
+	"ObjectFamily": "ObjectFamily 6",
+	"BatchDedicated": "BatchDedicated 6",
+	"CompetitorProd": "CompetitorProd 6",
+	"Upname": "Upname 6",
+	"Histex": "Histex 6",
+	"Logsys": "Logsys 6",
+	"__metadata": {
+		"uri": "Prod_ListSet(ProductGuid=guid'818771a5-b9d7-4e95-8bce-b2f536ea19c4',ProductId='ProductId%206')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Prod_List"
+	}
+}, {
+	"Client": "Client 7",
+	"ProductGuid": "27b5d318-ef50-456e-b5db-e37998f4ae3f",
+	"ProductId": "IvProductId-7",
+	"ProductType": "ProductType 7",
+	"Config": "Config 7",
+	"Xnosearch": "Xnosearch 7",
+	"ObjectFamily": "ObjectFamily 7",
+	"BatchDedicated": "BatchDedicated 7",
+	"CompetitorProd": "CompetitorProd 7",
+	"Upname": "Upname 7",
+	"Histex": "Histex 7",
+	"Logsys": "Logsys 7",
+	"__metadata": {
+		"uri": "Prod_ListSet(ProductGuid=guid'27b5d318-ef50-456e-b5db-e37998f4ae3f',ProductId='ProductId%207')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Prod_List"
+	}
+}, {
+	"Client": "Client 8",
+	"ProductGuid": "b1581565-a8ae-4a40-9199-bdf47ace0ce3",
+	"ProductId": "IvProductId-8",
+	"ProductType": "ProductType 8",
+	"Config": "Config 8",
+	"Xnosearch": "Xnosearch 8",
+	"ObjectFamily": "ObjectFamily 8",
+	"BatchDedicated": "BatchDedicated 8",
+	"CompetitorProd": "CompetitorProd 8",
+	"Upname": "Upname 8",
+	"Histex": "Histex 8",
+	"Logsys": "Logsys 8",
+	"__metadata": {
+		"uri": "Prod_ListSet(ProductGuid=guid'b1581565-a8ae-4a40-9199-bdf47ace0ce3',ProductId='ProductId%208')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Prod_List"
+	}
+}, {
+	"Client": "Client 9",
+	"ProductGuid": "bea25b01-4e64-4573-a03c-76e35f91195d",
+	"ProductId": "IvProductId-9",
+	"ProductType": "ProductType 9",
+	"Config": "Config 9",
+	"Xnosearch": "Xnosearch 9",
+	"ObjectFamily": "ObjectFamily 9",
+	"BatchDedicated": "BatchDedicated 9",
+	"CompetitorProd": "CompetitorProd 9",
+	"Upname": "Upname 9",
+	"Histex": "Histex 9",
+	"Logsys": "Logsys 9",
+	"__metadata": {
+		"uri": "Prod_ListSet(ProductGuid=guid'bea25b01-4e64-4573-a03c-76e35f91195d',ProductId='ProductId%209')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Prod_List"
+	}
+}, {
+	"Client": "Client 10",
+	"ProductGuid": "4995da38-70e7-4573-ab6b-4a84451b568f",
+	"ProductId": "IvProductId-10",
+	"ProductType": "ProductType 10",
+	"Config": "Config 10",
+	"Xnosearch": "Xnosearch 10",
+	"ObjectFamily": "ObjectFamily 10",
+	"BatchDedicated": "BatchDedicated 10",
+	"CompetitorProd": "CompetitorProd 10",
+	"Upname": "Upname 10",
+	"Histex": "Histex 10",
+	"Logsys": "Logsys 10",
+	"__metadata": {
+		"uri": "Prod_ListSet(ProductGuid=guid'4995da38-70e7-4573-ab6b-4a84451b568f',ProductId='ProductId%2010')",
+		"type": "Z_CRP0_UI5_PROD_DETAIL_INFO_SRV.Prod_List"
+	}
+}]
